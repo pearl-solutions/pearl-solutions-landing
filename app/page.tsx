@@ -12,8 +12,8 @@ export default function Home() {
 
         <div className="mt-6 flex items-center justify-center gap-4">
           <img src="/logo.png" alt="Pearl Solutions logo" className="w-12 h-12 sm:w-22 sm:h-22 object-contain" />
-          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl md:leading-[1.2] font-semibold tracking-tighter">
-            Pearl Solutions
+          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl md:leading-[1.2] font-semibold tracking-tighter flex">
+            Pearl <p className="font-light lg:ml-5 ml-2">Solutions</p>
           </h1>
         </div>
         
@@ -23,7 +23,7 @@ export default function Home() {
       <div className="absolute bottom-8 left-0 right-0 flex justify-center z-20">
         <Link href="https://whop.com/pearl-solutions" target="_blank" rel="noopener noreferrer">
         <Button size="lg" className="rounded-full text-base">
-          Soon Available <ArrowUpRight className="" />
+          Soon Available <ArrowUpRight/>
         </Button>
         </Link>
       </div>
