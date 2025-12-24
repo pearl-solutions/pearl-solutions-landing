@@ -21,9 +21,9 @@ export default function Home() {
       </div>
 
       <div className="absolute bottom-8 left-0 right-0 flex justify-center z-20">
-        <Link href="https://whop.com/pearl-solutions" target="_blank" rel="noopener noreferrer">
+        <Link href="https://whop.com/pearl-solutions/pearl-solutions" target="_blank" rel="noopener noreferrer">
         <Button size="lg" className="rounded-full text-base">
-          Soon Available <ArrowUpRight/>
+          Register on the waiting list <ArrowUpRight/>
         </Button>
         </Link>
       </div>
