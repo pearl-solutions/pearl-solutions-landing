@@ -16,17 +16,21 @@ export default function Home() {
             Pearl <p className="font-light lg:ml-5 ml-2">Solutions</p>
           </h1>
         </div>
+        Comming soon!
         
         
       </div>
 
-      <div className="absolute bottom-8 left-0 right-0 flex justify-center z-20">
+      {/*<div className="absolute bottom-8 left-0 right-0 flex justify-center z-20">
         <Link href="https://whop.com/pearl-solutions/pearl-solutions" target="_blank" rel="noopener noreferrer">
         <Button size="lg" className="rounded-full text-base">
           Register on the waiting list <ArrowUpRight/>
         </Button>
         </Link>
-      </div>
+      </div>*/}
+      {/*<div className="absolute bottom-8 left-0 right-0 flex justify-center z-20">
+        Pearl Solutions All rights reserved SIREN : 994260438
+      </div>*/}
     </div>
   );
 }
