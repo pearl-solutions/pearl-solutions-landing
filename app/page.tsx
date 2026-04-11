@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="min-h-screen flex items-center justify-center px-6 relative">
+    <div className="min-h-screen flex items-center justify-center px-6 relative select-none">
       <BackgroundPattern />
 
       <div className="relative z-10 text-center max-w-3xl">
@@ -28,9 +28,13 @@ export default function Home() {
         </Button>
         </Link>
       </div>*/}
-      {/*<div className="absolute bottom-8 left-0 right-0 flex justify-center z-20">
-        Pearl Solutions All rights reserved SIREN : 994260438
-      </div>*/}
+      <div className="flex items-center justify-center">
+        <div className="absolute bottom-8 left-0 right-0 flex justify-center z-20 px-4">
+          <p className="text-center text-gray-600  break-words">
+            © {new Date().getFullYear()} Pearl Solutions. Tous droits réservés. | Immatriculée en France | SIRET : 994260438
+          </p>
+        </div>
+      </div>
     </div>
   );
 }
