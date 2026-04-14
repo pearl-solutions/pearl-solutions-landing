@@ -31,7 +31,7 @@ export default function Home() {
       <div className="flex items-center justify-center">
         <div className="absolute bottom-8 left-0 right-0 flex justify-center z-20 px-4">
           <p className="text-center text-gray-600  break-words md:text-base text-sm">
-            © {new Date().getFullYear()} Pearl Solutions. Tous droits réservés. Immatriculée en France. SIRET : 994260438
+            © {new Date().getFullYear()} Pearl Solutions. All rights reserved. Registered in France. SIRET: 994260438
           </p>
         </div>
       </div>
