@@ -16,7 +16,7 @@ export default function Home() {
             Pearl <p className="font-light lg:ml-5 ml-2">Solutions</p>
           </h1>
         </div>
-        Comming soon!
+        Coming soon!
         
         
       </div>
